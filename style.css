@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root{
+    --slate-900:#1f314f;
+    --slate-500:#68778d;
+    --slate-300:#d5e1ef
+}
+
+
+body{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    background-color:#d5e1ef
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width:275px;
+    height:490px;
+    border-radius:8px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:4px 18px;
+}
+
+.outflit{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-bold{
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+
+.font-regular{
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+}
+
+
+
+.white{
+    color:#ffffff
+}
+
+.slate-900{
+    color:var(--slate-900)
+}
+
+.slate-500{
+    color:var(--slate-500)
+}
+
+
+.slate-300{
+    color:var(--slate-300)
+}
+
+
+.bg-slate-900{
+    background-color:var(--slate-900)
+}
+
+.bg-slate-500{
+    background-color:var(--slate-500)
+}
+
+
+.bg-slate-300{
+    background-color:var(--slate-300)
+}
+
+p{
+    font-size: 25px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
